@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>employees Table-Data</title>
+    <style>
+        body{
+            background-color: lightyellow;
+        }
+        h1{
+            color:white;
+            border:2px Dotted Red;
+            background-color: greenyellow;
+            text-align: center;
+            border-radius: 15px;
+        }
+        table{
+            border:5px Solid Blue;
+            margin:auto;
+            background-color: white;
+            text-align: center;
+        }
+        caption{
+            border-left:5px Solid Blue;
+            border-right:5px Solid Blue;
+            border-top:5px Solid Blue;
+            /*border-bottom:5px Solid Blue;*/
+            background-color: yellow;
+            font-size: 25px;
+            color:red;
+        }
+        thead,tfoot{
+            background-color: lightpink;
+            color:darkgreen;
+        }
+        tfoot {
+            font-size: 21px;
+        }
+        tbody{
+            color:red;
+            background-color: lightskyblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>***employees-Tables Template***</h1>
+    <hr />
+
+    <table border="2" width="80%">
+		<caption>employee-Details</caption>
+        <thead>
+            <tr>
+				<th>EMPRollNo</th>
+				<th>EName</th>
+				<th>JOB</th>
+				<th>Salary</th>
+				<th>Comm</th>
+				<th>Mgr</th>
+				<th>Doj</th>
+				<th>Depmno</th>
+			</tr>
+		</thead>
+        <tbody>
+            <tr>
+				<td>1001</td>
+				<td>Swamy</td>
+				<td>MNC</td>
+				<td>80000</td>
+				<td>8%</td>
+				<td>Rama</td>
+				<td>10-11-22</td>
+				<td>4</td>
+			</tr>
+            <tr>
+				<td>1002</td>
+				<td>Divya</td>
+				<td>MNC</td>
+				<td>70000</td>
+				<td>8%</td>
+				<td>Rama</td>
+				<td>10-11-22</td>
+				<td>5</td>
+			</tr>
+            <tr>
+				<td>1003</td>
+				<td>Kavya</td>
+				<td>MNC</td>
+				<td>60000</td>
+				<td>8%</td>
+				<td>Rama</td>
+				<td>10-11-22</td>
+				<td>7</td>
+			</tr>
+            <tfoot>
+                <tr>
+                    <td colspan="10">*****End of Records*****</td>
+                </tr>
+            </tfoot>
+		</tbody>
+
+	</table>
+
+</body>
+</html>
+

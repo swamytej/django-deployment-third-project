@@ -1,0 +1,21 @@
+#h11{
+    color:gold;
+    background:blueviolet;
+    border: 2px sandybrown;
+    text-align: center;
+    width:80%;
+    margin: auto;
+}
+#h22{
+    color:greenyellow;
+    background: blueviolet;
+    border: 2px brown;
+    text-align: center;
+    width:70%;
+    margin: auto;
+}
+#img1{
+    border: 10solid blue;
+    height: 200px;
+    width:300px;
+}
